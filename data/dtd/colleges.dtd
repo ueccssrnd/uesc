@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/colleges.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE colleges SYSTEM "colleges.dtd">
+
+    <colleges>
+    ...
+    </colleges>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT colleges (college)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT college EMPTY>
+<!ATTLIST college
+    name CDATA #IMPLIED
+    maxyear CDATA #IMPLIED
+    import CDATA #IMPLIED
+    abbr CDATA #IMPLIED
+  >

@@ -1,0 +1,30 @@
+DESIGN
+ - Separate stylesheet for IE
+ - Use tilesets instead of multiple images
+ - Layout
+   - Command Center
+   - Logs
+   - Statistics
+UX
+ - Bind keyboard controls
+SECURITY
+ - Separate settings management
+   from process management
+ - index.php for each page
+ - Password for private directories
+   via htpasswd
+ - minify (Closure) and obfuscate (Packer) codes
+STRUCTURE
+ - Include goodies
+ - htaccess modifs
+FEATURE
+ - Command Center
+ - Statistics
+ - Event Log
+ - Error Log
+ - About This
+DOCUMENTATION
+ - Finish help center
+ - Comment development codes
+
+REMOVE ALL *_ONCE

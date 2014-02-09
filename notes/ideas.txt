@@ -1,0 +1,27 @@
+Interactive Web IDE for Beginning Programmers
+Functions:
+ - Interactive Error Reporting
+ - Quick Tips for Debugging
+ - Auto Correction
+
+Programming Game, Robotics Simulation!
+ - Injecting programming in a typical MMORPG game
+ - Core is solving programming problems
+ - Battle Arena, fastest? shortest code?
+   - standard way of counting statements
+   - surrender
+ - 3D Models, 2D Environment or vice-versa
+ - Item Shop
+ - Inventory
+ - Customizable Bots
+
+Programming Community for Beginners
+ - Customizable Avatars
+ - Badges
+ - Interactive Lectures
+ - Problems with varying degrees
+   of difficulty
+ - Forums (Q&A Oriented e.g. StackOverflow, Yahoo! Answers)
+
+Robot Wars!
+ - foreach

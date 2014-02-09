@@ -1,0 +1,18 @@
+#container{
+    background-image: url(../images/containerbg.jpg);
+    background-position: left;
+}
+#content{
+    height: 430px;
+    width: 649px;
+}
+#sidebar{
+    padding-top: 80px;
+    border-right: rgba(255,255,255,0.1) solid 1px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    height: 330px;
+}
+#icoDashboard{
+    background-position: 0px 0px;
+}

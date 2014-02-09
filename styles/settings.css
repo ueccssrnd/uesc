@@ -1,0 +1,352 @@
+#sidebar{
+    border-right: #ccc solid 1px;
+    width: 288px;
+}
+#content{
+    width: 609px;
+    left: 290px;
+}
+#header{
+    padding-left: 310px;
+    width: 575px;
+}
+#subheader{
+    width: 260px;
+}
+#corner{
+    margin-left: 290px;
+}
+.menu{
+    display: block;
+}
+.link{
+    background-color: #ffdddd;
+    border-bottom: #8c7272 solid 1px;
+}
+.link:hover{
+    background-color: #ffbbbb;
+}
+.link:active{
+    text-shadow: -1px -1px 0px #883300;
+}
+a{
+    text-decoration: none;
+}
+.menuicon,.submenuicon{
+    background-image: url(../images/miniicons.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    display: inline;
+}
+.menuicon{
+    float: left;
+    margin-top: 4px;
+}
+.submenuicon{
+    float: right;
+    margin-left: 4px;
+}
+.submenuicon:hover{
+    cursor: pointer;
+}
+.add{
+    display: none;
+    background-position: 0px -120px;
+}
+.add:hover{
+    background-position: 0px 0px;
+}
+.edit{
+    background-position: 0px -150px;
+}
+.edit:hover{
+    background-position: 0px -45px;
+}
+.delete{
+    background-position: 0px -135px;
+}
+.delete:hover{
+    background-position: 0px -60px;
+}
+.save{
+    background-position: 0px -15px;
+}
+.cancel{
+    background-position: 0px -90px;
+}
+.play{
+    background-position: 0px -180px;
+}
+.play:hover{
+    background-position: 0px -30px;
+}
+.pause{
+    background-position: 0px -165px;
+}
+.pause:hover{
+    background-position: 0px -105px;
+}
+.stop{
+    background-position: 0px -195px;
+}
+.stop:hover{
+    background-position: 0px -75px;
+}
+.sidebarinput{
+    margin: -2px;
+    border: none;
+    width: 190px;
+    padding: 0 2px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 10.5pt;
+}
+#light{
+    position: absolute;
+    background-image: url(../images/light.png);
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    overflow: auto;
+}
+.panelInput{
+    color: #666666;
+    display: inline-block;
+    font-size: 11.5pt;
+    background-color: #ffffff;
+    border: #cccccc solid 1px;
+    padding: 4px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+#collegeName{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    width: 330px;
+}
+#collegeMaxYear{
+    width: 88px;
+    margin-left: 30px;
+}
+#collegeAbbr{
+    margin-left: -2px;
+    width: 109px;
+}
+#collegeImport{
+    width: 109px;
+    margin-left: -2px;
+    margin-right: 30px;
+}
+.titleBar{
+    margin-bottom: 10px;
+}
+.buttons{
+    background-color: #dddddd;
+    margin-top: 12px;
+}
+#frmDatabase{
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border: #bbbbbb solid 1px;
+    display: none;
+    padding: 2px;
+    box-shadow: 0px 5px 10px #cccccc;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    width: 300px;
+}
+#frmDatabase .buttons{
+    margin-top: 10px;
+}
+#frmDatabase .panelInput{
+    width: 230px;
+}
+#frmCollege{
+    display: none;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 120px;
+    background-color: #eeeeee;
+    width: 400px;
+    padding: 2px;
+    border-radius: 5px;
+    border: #bbbbbb solid 1px;
+    box-shadow: 0px 5px 10px #cccccc;
+}
+#frmAccount{
+    display: none;
+    margin-left: 150px;
+    margin-top: 110px;
+    background-color: #eeeeee;
+    width: 300px;
+    padding: 2px;
+    border-radius: 5px;
+    border: #bbbbbb solid 1px;
+    box-shadow: 0px 5px 10px #cccccc;
+}
+#frmAccount .buttons{
+    margin-top: 10px;
+}
+#frmCollege .buttons{
+    margin-top: 10px;
+}
+#btnChangePassword{
+    opacity: 0.8;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 45px;
+    width: 189px;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -480px;
+    background-color: #ffffff;
+    border: #666666 solid 1px;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,0.5),
+        0 1px 1px rgba(0,0,0,0.2);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0px 1px 0px #666666;
+}
+#btnChangePassword:hover{
+    opacity: 1;
+}
+#btnChangePassword:active{
+    box-shadow: 0 1px 1px rgba(255,255,255,0.5),
+        inset 0 1px 1px rgba(0,0,0,0.2);
+}
+#accountName,#accountType,#accountOldPassword,
+#accountNewPassword,#accountRepeatPassword{
+    margin-left: 45px;
+    width: 200px;
+}
+#accountType{
+    width: 210px;
+}
+.invisible{
+    display: none;
+}
+#icoDashboard{
+    background-position: 0px 0px;
+}
+#frmBackup{
+    display: none;
+    margin-left: 78px;
+    margin-top: 25px;
+    background-color: #eeeeee;
+    width: 450px;
+    height: 368px;
+    padding: 2px;
+    border-radius: 5px;
+    border: #bbbbbb solid 1px;
+    box-shadow: 0px 5px 10px #cccccc;
+}
+#divBackup{
+    margin-top: -8px;
+    height: 290px;
+    overflow: auto;
+}
+.buttons{
+    margin-top: 2px;
+}
+#frmBackup .button{
+    width: 80px;
+}
+#tblBackup{
+    width: 100%;
+    color: #ffffff;
+    font-size: 10pt;
+}
+#tblBackup td:first-child{
+    border-left: none;
+}
+#tblBackup th:first-child{
+    width: 235px;
+    border-left: none;
+}
+#tblBackup th{
+    border-left: #666666 solid 1px;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -510px;
+    font-weight: normal;
+    padding: 3px 5px;
+    text-shadow: 1px 1px 0px #666666;
+}
+#tblBackup th:hover{
+    cursor: default;
+}
+#tblBackup td{
+    border-left: #777777 solid 1px;
+    text-align: center;
+    padding: 2px 3px;
+}
+#frmBackup .light:hover,#frmBackup .dark:hover{
+    cursor: default;
+    background-color: #888888;
+}
+#frmBackup .light{
+    background-color: #aaaaaa;
+}
+#frmBackup .dark{
+    background-color: #999999;
+}
+#frmDownload{
+    display: none;
+    margin-left: 130px;
+    margin-top: 60px;
+    background-color: #eeeeee;
+    width: 350px;
+    height: 298px;
+    padding: 2px;
+    border-radius: 5px;
+    border: #bbbbbb solid 1px;
+    box-shadow: 0px 5px 10px #cccccc;
+}
+#btnDownloadFiles{
+    width: 120px;
+    margin-right: 100px;
+}
+#frmDownload .titleBar{
+    margin-bottom: 15px;
+}
+#frmDownload .chkDownload{
+    width: 250px;
+    margin: 1px auto;
+    background-color: #dddddd;
+    color: #333333;
+    font-size: 11pt;
+    padding: 5px 10px;
+}
+#frmDownload .chkDownload:hover{
+    cursor: default;
+}
+#frmDownload .buttons{
+    margin-top: 15px;
+}
+#frmDownload .chk{
+    float: right;
+}
+#frmDownload #All.chkDownload{
+    background-color: #cccccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#frmDownload #PDF.chkDownload{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#tblBackup .error{
+    padding-top: 130px;
+    font-size: 12pt;
+    color: #666666;
+}
+.selectedBackup{
+    background-color: #7c7c7c !important;
+}
+.selectedBackup:hover{
+    background-color: #7f7f7f;
+    cursor: default;
+}

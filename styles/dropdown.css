@@ -1,0 +1,59 @@
+#subheader:hover{
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -648px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#subheader:active{
+    text-shadow: -1px -1px 0px #993300;
+}
+#subheader{
+    padding-right: 30px;
+    width: 205px;
+}
+#dropdown{
+    height: 410px;
+    background-image: url(../images/light.png);
+    position: absolute;
+    margin-top: 60px;
+    display: none;
+    color: #ffffff;
+    width: 250px;
+    font-size: 12pt;
+    text-align: right;
+    z-index: 2;
+    overflow: auto;
+}
+#dropdownIndicator{
+    background-image: url(../images/dropdown.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    position: relative;
+    left: 20px;
+    top: -2px;
+}
+#dropdown .lightrow{
+    display: block;
+    padding: 5px 20px;
+    background-color: #bb4400;
+}
+#dropdown .darkrow{
+    display: block;
+    padding: 5px 20px;
+    background-color: #aa4400;
+}
+#dropdown .lightrow:hover, #dropdown .darkrow:hover{
+    background-color: #cc4400;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -558px;
+    cursor: pointer;
+}
+#dropdown a{
+    color: #ffffff;
+    text-decoration: none;
+}

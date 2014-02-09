@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <setting name="status" value="0"/>
+    <setting name="dbhost" value="localhost"/>
+    <setting name="dbuser" value="root"/>
+    <setting name="dbpassword" value="Um5k"/>
+    <setting name="dbname" value="uesc"/>
+</settings>

@@ -1,0 +1,59 @@
+#sidebar{
+    height: 410px;
+    text-align: center;
+    border-right: #999999 solid 1px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.submenu{
+    display: none;
+    color: #ffffff;
+    font-size: 10.5pt;
+    text-align: left;
+    border-bottom: #777777 solid 1px;
+    line-height: 1.2;
+}
+.submenu .light,.submenu .dark{
+    display: block;
+    padding: 2px 25px 3px 25px;
+    word-wrap: break-word;
+    color: #ffffff;
+    text-decoration: none;
+}
+.submenu a:hover.light,.submenu a:hover.dark{
+    cursor: pointer;
+}
+.submenu .light:hover,.submenu .dark:hover{
+    background-color: #7c7c7c;
+    cursor: default;
+    -webkit-transition: background-color .15s ease;
+    -moz-transition: background-color .15s ease;
+}
+.submenu .light{
+    background-color: #8f8f8f;
+    -webkit-transition: background-color .15s ease;
+    -moz-transition: background-color .15s ease;
+}
+.submenu .dark{
+    background-color: #888888;
+    -webkit-transition: background-color .15s ease;
+    -moz-transition: background-color .15s ease;
+}
+.menu{
+    text-align: right;
+    color: #ffffff;
+    padding: 4px 20px;
+    border-bottom: #7c7c7c solid 1px;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -480px;
+    text-shadow: 1px 1px 0px #333333;
+    background-color: #eeeeee;
+}
+.menu:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.menu:active{
+    text-shadow: -1px -1px 1px #666666;
+}

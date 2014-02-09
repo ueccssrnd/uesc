@@ -1,0 +1,269 @@
+#sidebar{
+    padding-top: 90px;
+    height: 320px;
+    text-align: center;
+    background-color: #dddddd;
+    border-right: #bbbbbb solid 1px;
+}
+#candidates{
+    text-align: center;
+}
+#icoSettings{
+    background-position: 0px -20px;
+}
+#icoDashboard{
+    background-position: 0px 0px;
+}
+#content{
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}t
+#buttonSet{
+    display: none;
+}
+.sidebarInputField{
+    font-size: 13pt;
+    text-align: left;
+}
+.candidate{
+    border: #bbbbbb solid 1px;
+    background-color: #eeeeee;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+    color: #333333;
+    display: inline-block;
+    padding: 4px;
+    margin: 2px 4px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 0px #999999;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+.candidate:hover{
+    border: #ff9999 solid 1px;
+    background-color: #ffeeee;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -130px;
+    text-shadow: 1px 1px 0px #ffeeee;
+    box-shadow: 0px 1px 0px #cc7777;
+    cursor: pointer;
+}
+.selectedCandidate{
+    display: inline-block;
+    border: #663300 solid 1px;
+    background-color: #993300;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -250px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 4px;
+    margin: 2px 4px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 0px #666666;
+    text-shadow: 1px 1px 0px #663300;
+}
+.selectedCandidate:hover{
+    border: #993300 solid 1px;
+    background-color: #cc3300;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -360px;
+    text-shadow: 1px 1px 0px #993300;
+    box-shadow: 0px 1px 0px #993300;
+    cursor: pointer;
+}
+.imgCandidate{
+    float: left;
+    background-color: #ffffff;
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.description{
+    width: 180px;
+    float:right;
+    font-size: 10pt;
+    text-align: left;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+.fieldDescription{
+    font-size: 11pt;
+    color: #333333;
+    text-shadow: none;
+}
+#btnAdd{
+    width: 65px;
+    position: relative;
+    top: 15px;
+    left: 12px;
+    border: #666666 solid 1px;
+    box-shadow: none;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#btnEdit{
+    width: 50px;
+    position: relative;
+    right: 85px;
+    top:15px;
+    border-top: #666666 solid 1px;
+    border-bottom: #666666 solid 1px;
+    box-shadow: none;
+    border-left: #993300 solid 1px;
+    border-right: #993300 solid 1px;
+    border-radius: 0px;
+}
+#btnDelete{
+    width: 70px;
+    position: relative;
+    left: 55px;
+    top: 15px;
+    border: #666666 solid 1px;
+    box-shadow: none;
+    border-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#light{
+    display: none;
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 250px;
+    height: 430px;
+    width: 550px;
+    background-image: url(../images/light.png);
+    z-index: 3;
+}
+#candidatePanel{
+    margin: auto;
+    margin-top: 90px;
+    height: 232px;
+    width: 504px;
+    background-color: #eeeeee;
+    padding: 2px;
+    cursor: default;
+    z-index: 4;
+    border-radius: 5px;
+    border: #bbbbbb solid 1px;
+    box-shadow: 0px 5px 10px #cccccc;
+}
+#titleBar{
+    font-size: 12pt;
+}
+#panelLabel{
+    display: inline-block;
+    width: 287px;
+    color: #666666;
+    border-bottom: #cccccc solid 1px;
+    font-size: 14pt;
+    padding-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.upload{
+    text-decoration: none;
+    opacity: 0.5;
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -480px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 11pt;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    margin-top: 203px ;
+}
+.upload:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#uploading{
+    display: none;
+}
+.icoUpload{
+    display: inline-block;
+    height: 12px;
+    width: 18px;
+    margin-top: 10px;
+    background-image: url(../images/upload.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+.avatar{
+    background-color: #ffffff;
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-top: 2px;
+    margin-right: 4px;
+    border: none;
+    border-radius: 5px;
+}
+.panelInput{
+    color: #666666;
+    display: inline-block;
+    font-size: 11.5pt;
+    background-color: #ffffff;
+    border: #cccccc solid 1px;
+    padding: 4px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 288px;
+    border-radius: 5px;
+}
+.panelInput:disabled{
+    color: #999999;
+    border: #dddddd solid 1px;
+}
+#lastName,#firstName{
+    width: 120px;
+    height: 23px;
+    margin-right: -2px;
+}
+#major{
+    width: 138px;
+    height: 22px;
+    margin-right: -2px;
+}
+#middleInitial{
+    width: 24px;
+    height: 23px;
+}
+#category,#party{
+    height: 33px;
+    width: 148px;
+    margin-right: -2px;
+}
+#position,#college,#yearLevel{
+    height: 32px;
+    width: 148px;
+}
+.name{
+    font-size: 11pt;
+    text-align: center;
+}
+.major{
+    text-align: center;
+}
+.party{
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+.submenu .light:hover,.submenu .dark:hover{
+    cursor: pointer;
+}
+.submenu .light,.submenu .dark{
+    padding: 2px 15px 3px 15px;
+}
+#content{
+    background: #ffffff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#icoDashboard{
+    background-position: 0px 0px;
+}
+h1{
+    background-color: #ffffff;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -558px;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    display: inline-block;
+    width: 300px;
+    float: right;
+    font-weight: normal;
+    font-size: 16pt;
+    margin-left: 220px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 15px;
+    text-shadow: 1px 1px 0px #993300;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+    font-size: 14pt;
+    font-weight: normal;
+    color: #993300;
+}
+p{
+    font-size: 11pt;
+    line-height: 1.1;
+    width: 90%;
+    margin: 15px auto;
+    text-indent: 30px;
+    text-align: justify;
+    color: #555555;
+}
+.pagefooter{
+    background-color: #eeeeee;
+    color: #999999;
+    padding: 5px 20px;
+    text-align: right;
+    margin-top: 50px;
+    border-bottom: #cccccc solid 1px;
+}
+.pagefooter strong{
+    font-weight: normal;
+    color: #666666;
+}
+p strong{
+    font-weight: normal;
+    color: #000000;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 45px;
+}
+li{
+    list-style-type: none;
+    color: #555555;
+}
+.leftcolumn{
+    width: 45%;
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+}
+.rightcolumn{
+    width: 45%;
+    display: inline-block;
+}
+#help a{
+    color: #cc3300;
+    text-decoration: none;
+}
+#help a:hover{
+    text-decoration: underline;
+}
+#sidebar a{
+    text-decoration: none;
+    display: block;
+}

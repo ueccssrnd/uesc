@@ -1,0 +1,86 @@
+#sidebar{
+    padding-top: 90px;
+    height: 320px;
+    text-align: center;
+    background-color: #dddddd;
+    border-right: #aaaaaa solid 1px;
+}
+#icoPrint{
+    background-position: 0px -80px;
+}
+#icoPrintAll{
+    background-position: 0px -100px;
+}
+#icoDashboard{
+    background-position: 0px 0px;
+}
+.fieldDescription{
+    font-size: 11pt;
+    color: #333333;
+    text-shadow: none;
+}
+.sidebarInputField{
+    text-align: left;
+    font-size: 13pt;
+}
+.result{
+    display: block;
+    margin: 5px 120px;
+}
+.name{
+    display: inline-block;
+    position: absolute;
+    font-size: 13pt;
+    color: #333333;
+    margin-left: 110px;
+    margin-top: 21px;
+}
+.imgCandidate{
+    display: inline-block;
+    background-color: #ffffff;
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+.progress{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: -60px;
+    background-color: #bbbbbb;
+    height: 32px;
+    width: 300px;
+    border: #999999 solid 1px;
+    border-radius: 8px;
+    box-shadow: inset 0px 1px 3px #999999;
+}
+.progressbar{
+    display: inline-block;
+    background-color: #cc3300;
+    background-image: url(../images/progress.png);
+    background-repeat: repeat-x;
+    height: 32px;
+    width: 0%;
+    box-shadow: 1px 1px 3px #999999;
+    border-radius: 8px;
+}
+.progressresult{
+    position: absolute;
+    width: 150px;
+    color: #ffffff;
+    font-size: 15pt;
+    margin-left: 75px;
+    text-align: center;
+    display: none;
+    height: 29px;
+    text-shadow: 1px 1px 0px #333333;
+}
+#candidates{
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 35px;
+}

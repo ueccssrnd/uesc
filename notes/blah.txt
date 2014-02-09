@@ -1,0 +1,21 @@
+DB ACTIVITIES
+
+GET DB STATUS
+CONNECTED - RUNNING|PAUSED|STOPPED
+
+MANAGE CANDIDATES
+INPUT to DB via EXCEL, HAND
+DO NOT INCLUDE BLOBS on DB
+EXPORT IMAGES to FILE SYSTEM
+CREATE/UPDATE XML FILE on SAVE
+
+MANAGE VOTERS
+IMPORT from EXCEL
+GET STATUS
+
+CHANGES
+
+Retrieves STUDENT NO.,PASSWORD(MD5),
+COLLEGE and YR. LEVEL ONLY from VOTERS
+
+Please be patient while data is imported.<br />This may take several minutes depending on the input&#039;s file size.

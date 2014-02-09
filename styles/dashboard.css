@@ -1,0 +1,282 @@
+#content{
+    width: 629px;
+    margin-left: 20px;
+}
+#header{
+    padding-left: 290px;
+    width: 595px;
+}
+#subheader{
+    width: 240px;
+}
+#corner{
+    margin-left: 270px;
+}
+#sidebar{
+    border-right: none;
+    width: 269px;
+    padding: 0px;
+    background-color: #888888;
+    overflow: hidden;
+}
+.light{
+    background-color: #808080;
+}
+.dark{
+    background-color: #777777;
+}
+.item{
+    display: block;
+    padding: 5px 10px;
+    font-size: 13.5pt;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #444444;
+}
+.item:hover{
+    cursor: pointer;
+    background-image: url(../images/gradients.png);
+    background-repeat: repeat-x;
+    background-position: 0px -360px;
+}
+.caption{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 65px;
+    display: inline-block;
+}
+.item:active .caption{
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.4);
+}
+.icon{
+    background-image: url(../images/dashboardicons.png);
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+#imgCommand{
+    background-position: 0px 0px;
+}
+#imgReset{
+    background-position: 0px -480px;
+}
+#imgStatistics{
+    background-position: 0px -96px;
+}
+#imgLogout{
+    background-position: 0px -144px;
+}
+#imgHelp{
+    background-position: 0px -192px;
+}
+#imgRegistration{
+    background-position: 0px -240px;
+}
+#imgResults{
+    background-position: 0px -288px;
+}
+#imgSettings{
+    background-position: 0px -336px;
+}
+#imgAbout{
+    background-position: 0px -384px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+#commandCenter{
+    overflow: hidden;
+}
+#chatBox{
+    background-color: rgba(255,255,255,0.5);
+    overflow: auto;
+    padding: 20px 50px;
+    height: 329px;
+}
+#chatBox div{
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(top, #eee, #e3e3e3);
+    background-image: -moz-linear-gradient(top, #eee, #e3e3e3);
+    background-image: -o-linear-gradient(top, #eee, #e3e3e3);
+    border: rgba(0,0,0,0.2) solid 1px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    line-height: 17px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#chatBox div:nth-child(odd){
+    background-color: #f6f6f6;
+    background-image: -webkit-linear-gradient(top, #f6f6f6, #eee);
+    background-image: -moz-linear-gradient(top, #f6f6f6, #eee);
+    background-image: -o-linear-gradient(top, #f6f6f6, #eee);
+}
+#chatBox div.system{
+    background-color: #fee;
+    background-image: -webkit-linear-gradient(top, #fee, #fdd);
+    background-image: -moz-linear-gradient(top, #fee, #fdd);
+    background-image: -o-linear-gradient(top, #fee, #fdd);
+}
+#chatBox div.system>span:nth-child(1){
+    color: #930;
+}
+#chatBox span:nth-child(1){
+    color: #666;
+}
+#chatBox span:nth-child(2){
+    background-color: rgba(255,255,255,0.5);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 8pt;
+    float: right;
+    padding: 3px 6px;
+    position: relative;
+    top: -5px;
+}
+#chatBox span:nth-child(3){
+    display: block;
+    font-size: 10pt;
+    line-height: 14px;
+    margin-top: 6px;
+    padding: 0px 25px 6px 25px;
+    text-indent: 20px;
+}
+#inputBox{
+    background-color: #eee;
+    background-image: -moz-linear-gradient(top, #eee, #e3e3e3);
+    background-image: -o-linear-gradient(top, #eee, #e3e3e3);
+    background-image: -webkit-linear-gradient(top, #eee, #e3e3e3);
+    border-top: #bbb solid 1px;
+    height: 39px;
+    padding: 13px 15px 8px 15px;
+}
+#txtInput{
+    border: #bbb solid 1px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: inset 0px 1px 1px #ddd,
+    	0px 1px 1px rgba(255,255,255,0.8);
+    font-size: 12pt;
+    padding: 4px 10px;
+    width: 500px;
+}
+#sidebar .viewport{
+    width: 269px;
+    height: 410px;
+    overflow: hidden;
+    position: relative;
+}
+#sidebar .overview{
+    list-style: none;
+    position: relative;
+}
+#sidebar .thumb .end,#sidebar .thumb{
+    background-color: #000000;
+    opacity: 0.15;
+}
+#sidebar .scrollbar{
+    display: none;
+    height: 30px;
+    position: absolute;
+    margin-left: 261px;
+    width: 8px;
+    z-index: 1;
+}
+#sidebar .track{
+    width: 8px;
+    position: absolute;
+    border-radius: 4px;
+}
+#sidebar .thumb{
+    height: 20px;
+    width: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+#sidebar .thumb .end{
+    overflow: hidden;
+    width: 8px;
+}
+#sidebar .disable{
+    visibility: hidden;
+}
+#statistics{
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+#statistics>span{
+    background-color: #eee;
+    background-image: -moz-linear-gradient(top, #eee, #e3e3e3);
+    background-image: -o-linear-gradient(top, #eee, #e3e3e3);
+    background-image: -webkit-linear-gradient(top, #eee, #e3e3e3);
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px #999;
+    display: inline-block;
+    font-size: 16pt;
+    margin: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 150px;
+}
+#statistics>span>span{
+    border-bottom: #ccc solid 1px;
+    display: block;
+    font-size: 9pt;
+    padding: 5px 15px 3px 15px;
+}
+#about{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px #999;
+    display: none;
+    margin: 120px auto;
+    padding: 10px 20px;
+    width: 380px;
+}
+#about div:first-child{
+    text-align: center;
+}
+#about div:last-child{
+    border-top: #ddd solid 1px;
+    font-size: 10pt;
+    margin-top: -5px;
+    padding-top: 10px;
+    text-indent: 30px;
+    text-align: justify;
+}
+#about h1{
+    color: #930;
+    display: inline-block;
+    font-size: 14pt;
+    font-weight: normal;
+    line-height: 20px;
+    position: relative;
+    top: -13px;
+    text-align: center;
+    width: 300px;
+}
+#loading{
+    background-image: url(../images/loading.gif);
+    display: inline-block;
+    height: 32px;
+    margin-top: 190px;
+    width: 32px;
+}

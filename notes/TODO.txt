@@ -1,0 +1,25 @@
+ADMIN LOGIN!
+help center*
+settings*
+security*
+credits*
+install*
+chat*
+
+DL JS Enlightenment
+Finish Settings. :)
+
+SEPARATE SETTINGS MANAGEMENT FROM PROCESS MANAGEMENT!!!
+
+ - finish backup & restore process
+ - finish activity and error logs
+ - finish statistics
+ - layout command center
+ - finish command center
+Disable Changing the Username
+
+WAH! CODE CLEAN UP
+REMOVE *_ONCE
+Use PDO::MySQL for DB
+
+SHITTY HTML SPECIAL CHARACTERS!!! :((

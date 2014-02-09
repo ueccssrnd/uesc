@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors><error number="2" file="C:\xampp\htdocs\uesc\includes\utilities.php" line="46" message="fclose() expects parameter 1 to be resource, boolean given"/></errors>

@@ -1,0 +1,46 @@
+Admin Panel
+Voters
+ - Add, Edit, Delete, Search, Pagination
+ - Add from file (.xls)
+Candidates
+ - Save directly to XML (?)
+ - Add, Edit, Delete
+ - Display via Category then Position
+ - Add from file (?) NOOOOOOOO!!!
+Results
+ - Display results via Category then Position
+ - Accessible only when Toggle is stopped!
+Settings
+ - Toggle
+ - Backup
+ - Stats
+   - Voters (Voted|Recorded)
+   - Time (Elapsed|Remaining)
+ - Time
+ - Backup Periods
+ - DB Settings (Root|User|Password|DB Name)
+ - Accounts
+ - Categories
+ - Colleges
+Help
+ - Introduction
+ - Acknowledgment
+ - Table of Contents
+ - Installation
+   - Setting up an Admin Account
+   - Setting up the Database
+ - Administration
+   - Voters
+   - Candidates
+   - Results
+   - Settings
+   - Help
+   - Logout
+ - Election
+   - Registration
+   - Login
+   - USC, CSC
+ - Some More Help
+ - Security
+ - Resources
+Logout

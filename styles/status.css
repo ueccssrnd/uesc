@@ -1,0 +1,21 @@
+#status{
+    position: absolute;
+    margin-top: 259px;
+    display: none;
+    background-image: url(../images/darkoverlay.png);
+    color: #ffffff;
+    cursor: default;
+    width: 249px;
+    z-index: 6;
+}
+#status #statusTitle{
+    text-align: left;
+    font-size: 11pt;
+    padding: 5px 10px;
+    background-color: #333333;
+    text-shadow: 1px 1px 0px #000000;
+}
+#status #statusMessage{
+    text-align: center;
+    margin: 10px;
+}

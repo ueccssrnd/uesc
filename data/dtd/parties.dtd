@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/parties.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE parties SYSTEM "parties.dtd">
+
+    <parties>
+    ...
+    </parties>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT parties (party)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT party EMPTY>
+<!ATTLIST party
+    name CDATA #IMPLIED
+  >

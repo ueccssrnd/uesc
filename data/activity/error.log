@@ -1,0 +1,21 @@
+[20-Feb-2013 10:29:30] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\uesc\ajax\managesettings.php on line 132
+[20-Feb-2013 10:29:30] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\uesc\ajax\managesettings.php on line 132
+[20-Feb-2013 10:29:30] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\uesc\ajax\managesettings.php on line 132
+[20-Feb-2013 10:29:30] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\uesc\ajax\managesettings.php on line 132
+[20-Feb-2013 10:29:30] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\uesc\ajax\managesettings.php on line 132
+[20-Feb-2013 13:57:28] PHP Warning:  rename(../images/candidates/Jed-Santarromana.png,../images/candidates/1361334700.png) [<a href='function.rename'>function.rename</a>]: No error in C:\xampp\htdocs\uesc\ajax\managecandidates.php on line 6
+[20-Feb-2013 14:16:21] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[20-Feb-2013 14:33:59] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[20-Feb-2013 14:34:42] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[26-Feb-2013 14:17:32] PHP Warning:  rename(../images/candidates/Joven-Dela-Fuente-A.jpg,../images/candidates/1361335047.jpg) [<a href='function.rename'>function.rename</a>]: No error in C:\xampp\htdocs\uesc\ajax\managecandidates.php on line 6
+[26-Feb-2013 14:17:50] PHP Warning:  rename(../images/candidates/Zarel-Cruzat.jpg,../images/candidates/1361334753.jpg) [<a href='function.rename'>function.rename</a>]: No error in C:\xampp\htdocs\uesc\ajax\managecandidates.php on line 6
+[26-Feb-2013 14:23:16] PHP Warning:  rename(../images/candidates/GIESLLE-GALLENA.jpg,../images/candidates/1361335684.jpg) [<a href='function.rename'>function.rename</a>]: No error in C:\xampp\htdocs\uesc\ajax\managecandidates.php on line 6
+[28-Feb-2013 15:33:35] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[28-Feb-2013 15:44:10] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[02-Mar-2013 15:25:48] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[02-Mar-2013 16:24:12] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[04-Mar-2013 15:20:40] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[05-Mar-2013 09:43:48] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[12-Mar-2013 10:37:38] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[16-Mar-2013 10:50:58] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6
+[23-Mar-2013 12:32:29] PHP Notice:  Undefined index: HTTP_REFERER in C:\xampp\htdocs\uesc\ajax\logout.php on line 6

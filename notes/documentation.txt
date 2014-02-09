@@ -1,0 +1,9 @@
+Election Summary:
+ - Date
+ - No. of Hours
+ - Time Started
+ - Time Ended
+ - Total Voters Recorded
+ - Total Voters Registered and Voted
+   - From Each College
+     - From Each Year Level

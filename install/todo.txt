@@ -1,0 +1,9 @@
+if database not set and if configuration not created, install
+else, reinstall?
+
+INSTALLATION PROCESS
+ - Create Administrator Profile
+ - Setup Database (host, username, password, dbname)
+ - Create Configuration File
+ - Initialize Candidates & Positions
+ - Move and Rewrite Index File
